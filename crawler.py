@@ -1,8 +1,5 @@
 #!/usr/local/bin/python2.7
 __author__ = "Bohan Zhang"
-__copyright__ = "Copyright (C) 2017 Bohan Zhang"
-__license__ = "MIT License"
-__version__ = "1.0"
 
 from HTMLParser import HTMLParser  
 from bs4 import BeautifulSoup
