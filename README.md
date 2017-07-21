@@ -16,6 +16,14 @@ pip3 install package-names
 ```
 to install some Python packages 
 
+## Deployment
+
+To run the backend program,load python2.7 module first, then type "python crawler.py"
+Please note that there must be a folder named "files" in the same directory with crawler
+To change the starting page, page number to download and domain, modify the variables in the last five lines of crawler.py
+Please note that to call BuildSearchEngine function, the last argument of the first call must be True,
+The last argument of other calls must be False
+
 ## Running the tests
 
 Put words you want to search in "query words" form box. 
